@@ -1,0 +1,144 @@
+/* HTML BAR */
+
+.html-progress {
+    background: rgba(242, 242, 242,0.2);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    display: flex;
+    height: 12px;
+    width: 250px;
+    margin: 10px 0 30px 0;
+}
+  
+.html-progress-value {
+    animation: html 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #F2DFCE;
+    height: 12px;
+    width: 0;
+}
+  
+@keyframes html {
+    0% { width: 0; }
+    100% { width: 70%; }
+}
+
+/* CSS BAR */
+
+.css-progress {
+    background: rgba(242, 242, 242,0.2);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    display: flex;
+    height: 12px;
+    width: 250px;
+    margin: 10px 0 30px 0;
+}
+  
+.css-progress-value {
+    animation: css 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #F2DFCE;
+    height: 12px;
+    width: 0;
+}
+  
+@keyframes css {
+    0% { width: 0; }
+    100% { width: 50%; }
+}
+
+/* JS BAR */
+
+.js-progress {
+    background: rgba(242, 242, 242,0.2);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    display: flex;
+    height: 12px;
+    width: 250px;
+    margin: 10px 0 30px 0;
+}
+  
+.js-progress-value {
+    animation: js 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #F2DFCE;
+    height: 12px;
+    width: 0;
+}
+  
+@keyframes js {
+    0% { width: 0; }
+    100% { width: 20%; }
+}
+
+/* GIT BAR */
+
+.git-progress {
+    background: rgba(242, 242, 242,0.2);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    display: flex;
+    height: 12px;
+    width: 250px;
+    margin: 10px 0 30px 0;
+}
+  
+.git-progress-value {
+    animation: git 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #F2DFCE;
+    height: 12px;
+    width: 0;
+}
+  
+@keyframes git {
+    0% { width: 0; }
+    100% { width: 40%; }
+}
+
+/* XD BAR */
+
+.xd-progress {
+    background: rgba(242, 242, 242,0.2);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    display: flex;
+    height: 12px;
+    width: 250px;
+    margin: 10px 0;
+}
+  
+.xd-progress-value {
+    animation: xd 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #F2DFCE;
+    height: 12px;
+    width: 0;
+}
+  
+@keyframes xd {
+    0% { width: 0; }
+    100% { width: 50%; }
+}
